@@ -9,5 +9,6 @@ At the end of the time, a new viewcontroller opens, which displays your progress
 I tried to write the whole application according to the MVC pattern. 
 
 <img width="338" alt="Снимок экрана 2022-04-03 в 00 32 00" src="https://user-images.githubusercontent.com/65918909/161402191-b5289fd3-727c-4746-864d-2589ac5b1200.png">
+
 # Thanks for visiting my GitHub
 
