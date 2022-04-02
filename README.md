@@ -7,6 +7,6 @@ Below them are four random answers, one of which is correct.You need to select o
 If the player answers correctly, then the button is highlighted in green, otherwise, in red, there is also a counter of correct answers in the upper left corner.
 At the end of the time, a new viewcontroller opens, which displays your progress and a button to play again.
 I tried to write the whole application according to the MVC pattern. 
-![alt text](https://ibb.co/gv6jvpj)
+![alt text](https://ibb.co/gv6jvpj.png)
 # Thanks for visiting my GitHub
 
