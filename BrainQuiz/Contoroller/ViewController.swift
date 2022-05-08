@@ -26,12 +26,23 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+       
+    }
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         addButtonsArray(button: firstButtonLabel,secondButtonLabel,thirdButtonLabel,forthButtonLabel)
         getNumbers()
         timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updateCounter), userInfo: nil, repeats: true)
-       
+        
     }
-    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        i = 20
+        scoreCounter = 0
+        scoreLabel.text = String(scoreCounter)
+        timer.invalidate()
+    }
     func getNumbers() {
       let  a = Int.random(in: 0...100)
       let b = Int.random(in: 0...100)
